@@ -1,0 +1,121 @@
+html {
+  background-color: rgb(255, 255, 249);
+  color: #110054;
+}
+
+body {
+  font-family: "area-normal", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+m {
+  font-family: "p22-mackinac-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1% 10% 0 8%;
+  }
+  
+  li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 6%;
+    font-size: 1.3vw;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    padding: 20px;
+    color: #110054;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #110054;
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 6vw;
+    font-weight: 100;
+    margin: 0;
+  }
+
+  #title {
+    margin-bottom: 4vw;
+  }
+
+  section {
+    margin: 0 14% 0 14%;
+  }
+
+  #btn_history {
+    border: .17vw solid black;
+    padding: 1.5vw 2vw 1vw 2vw;
+    border-radius: 999px;
+    background-color:#ffcc14;
+    font-size: 2vw;
+    height: 2vw;
+    overflow: hidden;
+    width: fit-content;
+    transition: .3s;
+    margin-left: 0px;
+    color: #0b003c;
+}
+
+#btn_history:hover {
+  border: .17vw solid black;
+  padding: 1.5vw 2vw 1vw 2vw;
+  border-radius: 999px;
+  background-color:#a08bff;
+  font-size: 2vw;
+  width: fit-content;
+  color: #0b003c;
+  position: relative;
+}
+
+#btn_history::after {
+  border: .17vw solid black;
+  padding: 1.5vw 2vw 1vw 2vw;
+  border-radius: 999px;
+  background-color:#ffcc14;
+  font-size: 2vw;
+  width: fit-content;
+}
+
+#rocket {
+  display: none;
+  position: relative;
+  left: -.5vw;
+  top: .5vw;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 999px;
+}
+#btn_history:hover #rocket{
+  display: block;
+}
+
+#eggpic {
+  width: 50vw;
+  position: relative;
+  right: -28vw;
+  top: -30vw;
+  z-index: -10;
+}
+
+#shorttext {
+  width: 27vw;
+  line-height: 2.2vw;
+  margin-bottom: 5vw;
+  font-size: 1.5vw;
+}
+

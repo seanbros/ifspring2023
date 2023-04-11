@@ -1,0 +1,161 @@
+html {
+    background-color: rgb(255, 255, 249);
+    color: #110054;
+  }
+  
+  body {
+    font-family: "area-normal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+  
+  m {
+    font-family: "p22-mackinac-pro", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 1% 10% 0 8%;
+    }
+    
+    li {
+      float: left;
+      width: 20%;
+      text-align: center;
+      margin-bottom: 4%;
+      font-size: 1.3vw;
+    }
+    
+    a {
+      display: block;
+      padding: 8px;
+      padding: 20px;
+      color: #110054;
+      text-decoration: none;
+    }
+  
+    a:visited {
+      color: #110054;
+      text-decoration: none;
+    }
+    
+    h1 {
+        font-family: "p22-mackinac-pro", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 6vw;
+      font-weight: 100;
+      margin: 0;
+      margin-bottom: 5vw;
+
+    }
+  
+  
+    section {
+      margin: 0 14% 0 14%;
+    }
+  
+h2 {
+  margin-top: 5px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+  * {
+    box-sizing: border-box;
+  } 
+  
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color:#110054;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 999px;
+  }
+  
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: #ffcc14;
+    border: 2px solid #110054;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+ 
+  .left {
+    left: 0;
+  }
+  
+  
+  .right {
+    left: 50%;
+  }
+  
+  .right::after {
+    left: -16px;
+  }
+  
+  .content {
+    padding: 30px 30px;
+    background-color: rgb(242, 241, 251);
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .timeline::after {
+      left: 31px;
+    }
+  
+    .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+ 
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+    .right {
+      left: 0%;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    h2 {
+      font-size: 17px;
+    }
+  }
+
