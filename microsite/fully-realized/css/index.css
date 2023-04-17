@@ -227,6 +227,8 @@ line-height: 18.5px;
     background-color: rgb(242, 241, 251);
     border-radius: 20px;
     padding: 7px 20px 60px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #onehard ul{
@@ -446,5 +448,14 @@ h2.sources {
 
   k {
     font-family: "area-normal", sans-serif;
+}
+
+#eggshellcolor {
+  margin-top: 25px;
+}
+
+#healtheffects {
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 
