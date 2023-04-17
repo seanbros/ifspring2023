@@ -278,8 +278,8 @@ img {
   height: 300px;
 }
 
-.sources h2 {
-  margin-bottom: 10px;
+h2.sources {
+  margin-bottom: 5px;
   margin-top: 30px;
 }
 
