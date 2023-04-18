@@ -287,6 +287,7 @@ h2.sources {
 
 .topnav {
   display: none;
+  z-index: 999;
 }
 
 nav {
@@ -346,8 +347,8 @@ nav {
   }
   #eggpic {
     width: 280px;
-    left: 300px;
-    top: 120px;
+    left: 350px;
+    top: 170px;
     z-index: -10;
   }
   #btn_history {
@@ -378,6 +379,31 @@ nav {
   height: 53px;
 }
 }
+@media screen and (max-width: 700px) {
+
+  #onehard {
+    padding: 7px 20px 155px 20px;
+}
+  #onehard li{
+    width: 100%;
+    margin: 0;
+    line-height: 18px;
+    padding-bottom: 10px;
+  }
+  .topnav {
+    display: contents;
+  }
+  nav {
+    display: none;
+  }
+  #eggpic {
+    width: 280px;
+    left: 240px;
+    top: 170px;
+    z-index: -10;
+  }
+}
+
 
   @media screen and (max-width: 500px) {
     h1 {
@@ -415,25 +441,7 @@ nav {
   }
     }
 
-  @media screen and (max-width: 700px) {
-
-    #onehard {
-      padding: 7px 20px 155px 20px;
-  }
-    #onehard li{
-      width: 100%;
-      margin: 0;
-      line-height: 18px;
-      padding-bottom: 10px;
-    }
-    .topnav {
-      display: contents;
-    }
-    nav {
-      display: none;
-    }
-  }
-
+  
   footer {
     font-size: 15px;
     line-height: 22px;
@@ -489,7 +497,7 @@ nav {
 .topnav a {
   color: rgb(9, 0, 61);
   padding: 14px 16px;
-  background-color: #e9eafb;
+  background-color: rgb(242, 241, 251);
   border-radius: 999px;
   border: .25vw solid rgb(9, 0, 54);
   font-family: "p22-mackinac-pro", serif;
@@ -520,7 +528,7 @@ a.active {
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #e7e6f7;
+  background-color: rgb(242, 241, 251);
   color: rgb(5, 0, 80);
 }
 nav {
