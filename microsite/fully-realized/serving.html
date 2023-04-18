@@ -8,6 +8,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
+<div class="topnav">
+    <a href="index.html" class="active">egg as food</a>
+    <div id="myLinks">
+      <li id="homebtn"><a href="index.html">home</a>
+          <a href="history.html">history</a>
+          <a href="nutrition.html">nutrition</a>
+          <a href="serving.html">serving</a>
+         <a href="sources.html">sources</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <script id="topnav">function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 <nav>
     <div id="heading">egg as food</div>
     <ul>

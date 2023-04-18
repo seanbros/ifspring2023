@@ -285,6 +285,14 @@ h2.sources {
   margin-top: 30px;
 }
 
+.topnav {
+  display: none;
+}
+
+nav {
+  display: block;
+}
+
 @media screen and (max-width: 1200px) {
   #eggpic {
     width: 330px;
@@ -318,6 +326,11 @@ h2.sources {
   #bckgd {
     height: 60px;
   }
+
+  nav {
+    text-align: center;
+    background-color: #3b0fff15;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -334,7 +347,7 @@ h2.sources {
   #eggpic {
     width: 280px;
     left: 300px;
-    top: 200px;
+    top: 120px;
     z-index: -10;
   }
   #btn_history {
@@ -413,6 +426,12 @@ h2.sources {
       line-height: 18px;
       padding-bottom: 10px;
     }
+    .topnav {
+      display: contents;
+    }
+    nav {
+      display: none;
+    }
   }
 
   footer {
@@ -438,10 +457,7 @@ h2.sources {
     padding: 2% 0 1% 0;
   }
 
-  nav {
-    text-align: center;
-    background-color: #3b0fff15;
-  }
+  
 
 
   k {
@@ -457,3 +473,57 @@ h2.sources {
   margin-bottom: 0px;
 }
 
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: rgb(9, 0, 61);
+  padding: 14px 16px;
+  background-color: #e9eafb;
+  border-radius: 999px;
+  border: .25vw solid rgb(9, 0, 54);
+  font-family: "p22-mackinac-pro", serif;
+  font-size: 3.4vw;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: rgb(255, 202, 12);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+li#homebtn {
+  width: fit-content;
+  margin-right: 30px;
+}
+
+a.active {
+  margin-bottom: 20px;
+}
+
+
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #e7e6f7;
+  color: rgb(5, 0, 80);
+}
+nav {
+  text-align: center;
+  background-color: #3b0fff15;
+}
