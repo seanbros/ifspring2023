@@ -524,6 +524,7 @@ nav {
 }
 
 li#homebtn {
+  list-style: none;
   width: fit-content;
   margin-right: 30px;
 }
