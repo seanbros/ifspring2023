@@ -359,6 +359,7 @@ nav {
     padding: 13px 21px 28px 21px;
     font-size: 20px;
     height: 40px;
+    line-height: 13px;
   }
   h2 {
     font-size: 25px;
@@ -431,14 +432,12 @@ nav {
     padding: 9px 15px 20px 16px;
     font-size: 14px;
     height: 19px;
-    line-height: 14px;
+    line-height: 13px;
+    width: 145px;
     }
     h2 {
       font-size: 19px;
       margin-bottom: 2px;
-    }
-    #btn_history {
-      width: 145px;
   }
   #bckgd {
     height: 45px;
