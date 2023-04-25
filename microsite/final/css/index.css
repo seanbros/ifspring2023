@@ -431,11 +431,10 @@ nav {
     padding: 9px 15px 20px 16px;
     font-size: 14px;
     height: 19px;
-    line-height: 13px;
     width: 145px;
     }
-    #learn {
-      line-height: 0px;
+    div#learn {
+      line-height: 13px;
     }
     h2 {
       font-size: 19px;
