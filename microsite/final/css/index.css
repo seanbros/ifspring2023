@@ -79,7 +79,7 @@ ul {
 
 #learn {
   display: block;
-  line-height: 13px;
+  line-height: 17px;
 }
 
 
@@ -359,7 +359,6 @@ nav {
     padding: 13px 21px 28px 21px;
     font-size: 20px;
     height: 40px;
-    line-height: 0px;
   }
   h2 {
     font-size: 25px;
@@ -434,6 +433,9 @@ nav {
     height: 19px;
     line-height: 13px;
     width: 145px;
+    }
+    #learn {
+      line-height: 0px;
     }
     h2 {
       font-size: 19px;
