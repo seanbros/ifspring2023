@@ -68,18 +68,18 @@ ul {
     margin-left: 0px;
     color: #0b003c;
     text-align: center;
-    line-height: 17px;
+    line-height: 19px;
 }
 
 #crack {
   display: none;
   color: rgba(255, 255, 255, 0);
-  line-height: 17px;
+  line-height: 19px;
 }
 
 #learn {
   display: block;
-  line-height: 17px;
+  line-height: 19px;
 }
 
 
@@ -434,7 +434,7 @@ nav {
     width: 145px;
     }
     div#learn {
-      line-height: 11px;
+      line-height: 13px;
     }
     h2 {
       font-size: 19px;
