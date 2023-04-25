@@ -76,7 +76,7 @@ ul {
 }
 
 #learn {
-  display: contents;
+  display: block;
 }
 
 
@@ -86,7 +86,7 @@ ul {
 }
 
 #btn_history:hover #crack{
-  display: contents;
+  display: block;
   color: rgba(255, 255, 255, 99);
 }
 
